@@ -45,7 +45,7 @@ if __name__ == "__main__":
             cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
         # Display the new frame
-        cv2.imshow('FaceDetectoin', frame)
+        cv2.imshow('Face Detection', frame)
 
         # Key listeners
         if k%256 == 27:
